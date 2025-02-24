@@ -1,10 +1,13 @@
 # shime-monitor-r
 
+## Version
+1.0.0
+
 ## Overview
 SHIME Monitor (`shime_monitor.R`) visualizes data from the Simulator of the Human Intestinal Microbial Ecosystem (SHIME®), a dynamic in vitro gut model system. The script processes and displays both pump activity and pH measurements, providing researchers with clear visualizations of system behavior during gut microbiome experiments.
 
 ## Background
-During SHIME experiments, microbial fermentation of non-digestible carbohydrates produces short-chain fatty acids such as acetate, butyrate, and propionate. This fermentation activity changes the pH in the reactors, which is automatically corrected by acid and base pumps to maintain target pH levels. By monitoring both pH readings and pump activity, researchers can:
+During SHIME® experiments, microbial fermentation of non-digestible carbohydrates produces short-chain fatty acids such as acetate, butyrate, and propionate. This fermentation activity changes the pH in the reactors, which is automatically corrected by acid and base pumps to maintain target pH levels. By monitoring both pH readings and pump activity, researchers can:
 - Track microbial fermentation activity
 - Verify proper system operation
 - Identify potential issues or interesting patterns
@@ -27,7 +30,7 @@ During SHIME experiments, microbial fermentation of non-digestible carbohydrates
 	- scales
 
 ### Input Files
-It is recommended that the user directly extract Logs.csv files from the .accdbt SHIME file (using Microsoft Access or similar), WITH default headings.
+It is recommended that the user directly extract Logs.csv files from the .accdbt SHIME® file (using Microsoft Access or similar), WITH default headings.
 
 1. PumpsLogs.csv file containing:
 	- "ID"
