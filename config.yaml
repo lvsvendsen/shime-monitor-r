@@ -1,0 +1,66 @@
+######################
+# General
+######################
+#
+working_dir: "/path/to/working_directory"
+PROJECT: 
+TYPE: inoculation # Options: inoculation OR run
+#
+MAIN_INPUT_FILE: "PumpsLog.csv"
+main_separator: ","
+#
+PH_INPUT_FILE: "pHLog.csv"
+ph_separator: ","
+
+######################
+# Dates
+######################
+# in "%d-%m-%Y" format
+# (which should be standard when extracting .csv from the .accbd files)
+# e.g: "5-2-2025" for Feb 05, 2025
+#
+START: "5-2-2025"
+END: "6-2-2025"
+
+######################
+# SHIME and treatments
+######################
+#
+SHIME: quad # Options: quad OR other
+
+# IMPORTANT: The order of treatments below must match the SHIME reactor layout.
+# The first treatment listed should correspond to the treatment in reactor(s) 1, the second to reactor(s) 2, and so on.
+#
+TREATMENTS:
+- "control"
+- "high fiber"
+- "high protein"
+- "high fat"
+
+######################
+# Main pump config
+######################
+# list desired pumps in MAIN_INPUT_FILE you would like visualized
+# obs! must have pump number followed by designated pump name separated by space:
+# E.g.:
+# - "12 Acid PC1"
+# - "13 Base PC1"
+#
+PUMPS:
+- "12 Acid PC1"
+- "13 Base PC1"
+-
+
+######################
+# pH probe config
+######################
+# list of all pH ProbeNr in PH_INPUT_FILE and given probe names
+# obs! must have probe number and designated probe name seperatde by a space:
+# E.g.:
+# - "2 PC1"
+# - "3 DC1"
+#
+PH_PUMPS:
+- "2 PC1"
+- "3 DC1"
+-
