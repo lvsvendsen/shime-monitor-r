@@ -52,10 +52,10 @@ It is recommended that the user directly extract Logs.csv files from the .accdbt
 
 ## Output
 The script generates plots showing:
-	- Acid pump activity over time for each reactor
-	- Base pump activity over time for each reactor
-	- pH measurements over time for each reactor
-	- Data grouped by treatment conditions
+- Acid pump activity over time for each reactor  
+- Base pump activity over time for each reactor  
+- pH measurements over time for each reactor  
+- Data grouped by treatment conditions
 
 ## Troubleshooting
 Common issues and solutions:
@@ -71,7 +71,8 @@ Feel free to submit issues and enhancement requests!
 License information to be added soon.
 
 ## Contact
-[GitHub](https://github.com/lvsvendsen))
+For questions or feedback, you can reach me here:  
+[GitHub Profile](https://github.com/lvsvendsen)  
 
 ## Acknowledgments
 * SHIME® is a registered trademark of ProDigest
