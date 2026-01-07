@@ -71,7 +71,7 @@ Common issues and solutions:
 Feel free to submit issues and enhancement requests!
 
 ## License
-License information to be added soon.
+License information TBD.
 
 ## Contact
 For questions or feedback, you can reach me here:  
